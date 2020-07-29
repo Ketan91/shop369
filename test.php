@@ -16,7 +16,6 @@ if (empty($type)) {
     header('location: https://www.shop369.org/products.php?partner=' . $partner . '&type=buyer');
 }
 
-
 $curl = curl_init($sapiUrl); //Get product list
 
 $curl_post_data = array(
